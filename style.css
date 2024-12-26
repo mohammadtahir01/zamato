@@ -313,7 +313,7 @@ h1{
 @media (max-width: 450px){
 
     #container{
-        height: 47vh;
+        height: 46.5vh;
         width: 100%;
         background-size: contain;
         background-repeat: no-repeat;
