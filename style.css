@@ -368,7 +368,7 @@ h1{
 
 
     .cards{
-        margin-top: 2rem;
+        margin-top: 5px;
         gap: 1rem;
         display: grid;
     }
