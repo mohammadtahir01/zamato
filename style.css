@@ -6,11 +6,13 @@
 
 }
 
-.container{
+/* ---------------------cards-Box ------------------------------ */
+
+#container{
     background: url(rahul/zamato\ \(2\).png) ;
     height: 75vh;
     width: 100%;
-    display: flex;
+    /* display: grid; */
     color: white;
 
 }
@@ -37,13 +39,16 @@
 .icon3 ul a{
     text-decoration: none;
     color: white;
-    /* margin-top: -2rem; */
 }
 
 .icon {
     color: white;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     margin-left: 6rem;
+}
+
+.icon i{
+    margin-top: 1rem;
 }
 
 .icon a{
@@ -52,7 +57,7 @@
 }
 
 .logo{
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
 }
@@ -85,7 +90,6 @@ h1{
 }
 
 .input-box2{
-    /* margin-right: 3rem; */
     margin-left: 1rem;
 }
 .location1{
@@ -102,7 +106,6 @@ h1{
 
 .section{
     display: flex;
-    /* margin-left: -2.5rem; */
     margin-left: 0.5rem;
     height: 2rem;
     width: 2px;
@@ -121,10 +124,10 @@ h1{
     color: black;
 }
 
-/* <!-- ***********************container-Box******************************* -->     */
+/* ---------------------cards-Box ------------------------------ */
 
 .cards{
-    height: 300px;
+    /* height: 300px; */
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -133,7 +136,7 @@ h1{
 }
 
 .cards-box img{
-    height: 175px;
+    /* height: 175px; */
     width: 98%;
     border-radius: 10px 10px 0 0;
     padding: 5px 5px;
@@ -142,9 +145,9 @@ h1{
 .cards-box{
     background-color: white;
     color: black;
-    border: 1px solid rgb(232, 232, 232);
+    border: 1px solid rgb(97, 97, 115);;
     width: 28%;
-    height: 265px;
+    /* height: 265px; */
     justify-content: space-evenly;
     align-items: center;
     border-radius: 10px;
@@ -153,8 +156,6 @@ h1{
 
 .cards-box:hover{
     transform: scale(1.05);
-    /* height: 265px; */
-    /* background-color: white; */
 }
 
 .orderlist{
@@ -170,12 +171,14 @@ h1{
     margin-left: 2rem;
 }
 
+
+/* ---------------------food-container --------------------------------    */
+
 .food-container{
-    height: 100px;
+    /* height: 100px; */
+    margin-top: 1rem;
     margin-left: 3rem;
     font-size: 1.5rem;
-    /* color: black;
-    background-color: black; */
 }
 
 .Bhopal2{
@@ -184,25 +187,27 @@ h1{
     color: rgb(255, 126,139);
     margin-top: -1.6rem;
     margin-right: 1rem;
-}
+} 
+
+/*---------------------food-operation---------------------------------*/  
 
 .food-operation{
     display: flex;
-    height: 340px;
+    margin-top: 2rem;
+    /* height: 340px; */
     position: relative;
 }
 
 .food-box{
-    height: 60%;
-    background-color: black;
-    /* border: 1px solid rgb(232, 232, 232); */
+    /* height: 60%; */
+    /* background-color: black; */
     width: 20%;
     border-radius: 10px;
     margin-left: 3rem;
 }
 
 .food-box img{
-    height: 300px;
+    /* height: 300px; */
     width: 100%;
     border-radius: 10px 
 }
@@ -212,10 +217,12 @@ h1{
   left: 1rem;
   color: white;
   position: relative;
-}
+} 
+
+/*---------------------food-operation---------------------------------*/  
 
 .popular{
-    height: 70px;
+    /* height: 70px; */
     margin-left: 3rem;
     font-size: 1.5rem;
 }
@@ -225,7 +232,6 @@ h1{
     margin-left: 3rem;
     display: flex;
     flex-wrap:wrap;
-    /* flex-direction: column; */
 }
 
 .small-card{
@@ -249,10 +255,11 @@ h1{
     height: 40vh;
 }
 
+/*---------------------mobile-section---------------------------------*/  
+
 .mobile-section{
     display: flex;
     justify-content: center;
-    /* height: 500px; */
     margin-top: 4rem;
 }
 
@@ -297,4 +304,137 @@ h1{
     padding: 10px;
     border-radius: 5px;
     color: white;
+} 
+
+
+/* ---------------------nav-Box ---------------------------- --   */
+
+
+@media (max-width: 450px){
+
+    #container{
+        height: 47vh;
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    #container .logo img{
+        height: 25px;
+        margin-top: 1rem 
+    }
+
+    #container .nav h1{
+        font-size: 16px;
+        margin-top: 1rem;
+    }
+
+    #container .nav .icon{
+        margin-left: 1rem;
+    }
+    #container .nav .icon3 {
+        display: none;
+    }
+
+    #container .nav .input-box .input-box2{
+        display: none;
+    }
+    #container .nav .input-box{
+        display: flex;
+        width: 0%;
+        margin-left: 5rem;
+    }
+
+    #container .nav .input-box .input-operation {
+        display: flex;
+        align-items: center;
+    }
+
+    #container .nav .input-box .input-operation .location1{
+        background-color: white;
+        padding: 7px 1px 7px 10px;
+        border-radius: 5px 0px 0px 5px;
+        font-size: 1.2rem;
+       
+    }
+
+    #container .nav .input-box .input-operation input{
+         padding: 7px 64px 7px 8px;
+         border-radius: 0px 5px 5px 0px;
+    }
+
+
+    /* ---------------------cards-Box -------------------------------- */
+
+
+    .cards{
+        margin-top: 2rem;
+        gap: 1rem;
+        display: grid;
+    }
+
+    .cards .cards-box {
+        width: 100%;
+    }
+
+/* ---------------------food-container -------------------------------- */
+
+    .food-container {
+        /* margin-left: 3rem; */
+       font-size: 1.5rem;
+       margin-top: 1rem;
+    }
+
+    .food-container .Bhopal2{
+        margin-top: 0.4rem;
+    }
+
+    .food-operation{
+        display: grid;
+        margin-top: 2rem;
+    }
+
+    
+    .food-operation .food-box{
+        width: 80%;
+        border-radius: 10px;
+        /* margin-left: 4px; */
+        background-color: white;
+    }
+
+    .food-operation .food-box img{
+        /* width: 100%; */
+    }
+
+
+    /* ---------------------popular -------------------------------- */
+
+
+    .popular{
+        margin-left: 1rem;
+        font-size: 1rem;
+    }
+
+    /* ---------------------big-card -------------------------------- */
+
+    .big-card{
+        display: grid;
+        height: auto;
+        margin-left: 10px;
+    }
+
+    .big-card .small-card{
+        height: auto;
+        width: auto;
+
+    }
+
+    .space{
+        height: auto;
+    }
+
+    .mobile-section{
+        display: grid;
+    }
+    
 }

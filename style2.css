@@ -4,8 +4,10 @@
 
 }
 
+/* -- ------------------------------ nav bar ------------------------------  */
+
 #zamato-sec{
-    background-image: url(zamato-s.jpg);
+    background-image: url(/rahul/zamato-sec.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
@@ -72,6 +74,8 @@
     border-radius: 10px;
     font-weight: bold;
 }
+
+/* -- ------------------------------ main container ------------------------------  */
 
 section{
     display: flex;
