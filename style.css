@@ -327,6 +327,7 @@ h1{
     #container .nav h1{
         font-size: 16px;
         margin-top: 1rem;
+        margin-right: 2rem;
     }
 
     #container .nav .icon{
@@ -342,7 +343,7 @@ h1{
     #container .nav .input-box{
         display: flex;
         width: 0%;
-        margin-left: 5rem;
+        margin-left: 2.5rem;
     }
 
     #container .nav .input-box .input-operation {
